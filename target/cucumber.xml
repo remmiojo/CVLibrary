@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="17.474">
+    <testcase classname="Cv Library - Job search functionality" name="Job search functionality scenario  - With More search option" time="17.214">
+        <system-out><![CDATA[Given I am on the CV library home...........................................passed
+When I search for a job with the following "sales", "London" , "up to 10 miles" , "30000", "50000", "Per annum"  and "Permanent".passed
+Then page containing "sales" jobs in "London" is displayed..................passed
+]]></system-out>
+    </testcase>
+</testsuite>

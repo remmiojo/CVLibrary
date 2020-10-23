@@ -1,0 +1,127 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-23T16:46:16.072Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3669436900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hook.innitialize()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Job search functionality scenario  - With More search option",
+        "description": "",
+        "id": "cv-library---job-search-functionality;job-search-functionality-scenario----with-more-search-option;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3567073600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Hook.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3701634700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the CV library home",
+            "match": {
+              "location": "step_definitions.JobSearchFunctionalityStepDef.i_am_on_the_cv_library_home()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3646007100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I search for a job with the following \"sales\", \"London\" , \"up to 10 miles\" , \"30000\", \"50000\", \"Per annum\"  and \"Permanent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sales\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"London\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"up to 10 miles\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"30000\"",
+                  "offset": 77
+                },
+                {
+                  "val": "\"50000\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"Per annum\"",
+                  "offset": 95
+                },
+                {
+                  "val": "\"Permanent\"",
+                  "offset": 112
+                }
+              ],
+              "location": "step_definitions.JobSearchFunctionalityStepDef.i_search_for_a_job_with_the_following_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2550679400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "page containing \"sales\" jobs in \"London\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sales\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"London\"",
+                  "offset": 32
+                }
+              ],
+              "location": "step_definitions.JobSearchFunctionalityStepDef.page_containing_jobs_in_is_displayed(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RunallTest"
+          }
+        ]
+      }
+    ],
+    "name": "Cv Library - Job search functionality",
+    "description": "",
+    "id": "cv-library---job-search-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/feature_files/JobSearchFunctionality.feature",
+    "tags": []
+  }
+]
